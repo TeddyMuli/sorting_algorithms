@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "sort.h"
 
+
 void insertion_sort_list(listint_t **list) {
     int i = 0;
     listint_t  *node, *temp, *next, *temp_next, *temp_prev;
